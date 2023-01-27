@@ -1,0 +1,147 @@
+.slider__item {
+  max-width: 100%;
+  height: 600px;
+
+
+&-01 {
+  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
+    url("../assets/all-images/bicycle/bcycle.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+&-02 {
+  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
+    url("../assets/all-images/bicycle/bcycle2.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+&-03 {
+  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
+    url("../assets/all-images/bicycle/bcycle3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+.hero__slider {
+  overflow: hidden;
+  position: relative;
+}
+.layer{
+  position: absolute;
+  content: '';
+  background: #01383C;
+  top: 0;
+  left: 0;
+  width: 795px;
+  height: 600px;
+  z-index: 1;
+
+}
+.slider__content {
+  padding-top: 100px;
+  background-color: #01383C;
+padding-bottom: 203px;
+  position: absolute;
+  width: 790px;
+  padding-left: 200px;
+  height: 600px;
+  left: 0;
+  h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+  }
+}
+.reserve__btn {
+  background: #099E71 !important;
+  color: #fff !important;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+  }
+  &:hover{
+    background: #000d6b;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 992px) {
+  .slider__content {
+    padding-left: 0;
+  }
+  .layer{
+    display: none;}
+}
+// }
+// @media only screen and (max-width: 992px) {
+//   .slider__item {
+//     height: 530px;
+//     max-width: 100vw;
+//   }
+
+//   .slider__content {
+//     margin-top: -50px;
+//   }
+
+//   .slider__content h1 {
+//     font-size: 2rem;
+//   }
+// }
+
+// @media only screen and (max-width: 768px) {
+//   .slider__item {
+//     height: 450px;
+//   }
+
+//   .slider__content h1 {
+//     font-size: 1.5rem;
+//   }
+// }
+.container{
+  max-width: 1190px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.main-div{
+  position: relative;
+}
+.slider-title{
+  font-style: normal;
+font-weight: 600;
+font-size: 80px;
+line-height: 90px;
+/* or 112% */
+
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.small-text{
+
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+}
+.reserve__btn{
+  width: 319px;
+height: 47px;
+left: 150.17px;
+top: 715.71px;
+border-radius: 0 !important;
+background: #099E71;
+}

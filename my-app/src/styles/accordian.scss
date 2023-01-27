@@ -1,0 +1,32 @@
+.container{
+    width: 1180px;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+.ac-border{
+    box-shadow:0 0 0 #fff !important;
+    border-bottom: 1px solid black;
+}
+.title-f{
+    font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #099E71;
+}
+.icons{
+    color: #099E71;
+}
+.acr-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 39px;
+
+color: #000000;
+}

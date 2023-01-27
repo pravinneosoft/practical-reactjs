@@ -1,0 +1,68 @@
+.footer{
+  background: #01383C;
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+.container{
+  width: 1180px;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+.footer-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.footer-links{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-bottom: 30;
+  &:hover{
+    color: #000;
+  }
+}
+.btn-submit{
+
+font-weight: 400;
+font-size: 14px;
+
+
+color: #FFFFFF;
+width: 99px;
+height: 44px;
+border: 0;
+box-shadow: 0;
+
+
+background: #099E71;
+}
+.terms{
+  font-weight: 400;
+font-size: 14px;
+
+/* identical to box height */
+
+
+color: #FFFFFF;
+margin: 20px 0;
+
+}
+.footer-input{
+  width: 270px;
+height: 40px;
+background: #FFFFFF;
+border: 1px solid #099E71;
+margin-top: 12px;
+padding: 12px;
+}
+.term-input{
+  margin-right: 12px;
+}
+p{
+  margin: 0;
+}

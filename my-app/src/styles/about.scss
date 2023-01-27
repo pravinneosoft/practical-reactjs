@@ -1,0 +1,61 @@
+.About{
+    display: flex;
+ 
+
+}
+.container{
+    width: 1180px;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+.about-heading{
+    font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #099E71;
+}
+.about-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #000000;
+}
+.about-read{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #099E71;
+}
+.about-left{
+    padding-left: 60px;
+}
+@media screen and (max-width: 992px) {
+    .about-left{
+        padding-left: 0px;
+    }
+    svg{
+        width: 100%;
+    }
+    .About{
+     
+        flex-wrap: wrap;
+    
+    }
+  }
+  
